@@ -1,24 +1,15 @@
 .home-blog .hero div{
     color: #FFBBFF;
 }
+
 .sidebar > .sidebar-links > li > a.sidebar-link{
     font-size: 1.5em !important;
   	margin-left: -0.5em;
 }
+
 // 去除左上角标题，作者，标签等
 .page .page-title {
     display: none;
-}
-.home-blog .hero {
-    margin: 3.6rem auto 0;
-    position: relative;
-    box-sizing: border-box;
-    padding: 0 20px;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: url(/img/home-bg.jpg) center center / cover no-repeat !important;
 }
 
 .navbar {
@@ -61,7 +52,7 @@
     transform: translateY(0px) rotate(45deg);
   }
   100% {
-    transform: translateY(100px) rotate(45deg);
+    transform: translateY(80px) rotate(45deg);
     border: 0.25rem solid rgba(255, 255, 255, 0.5);
     border-bottom-right-radius: 0.15rem;
     border-top: none;
@@ -73,3 +64,65 @@
     box-shadow: 0 0 0px !important;
     background-color: transparent !important;
 }
+
+.about
+  .aboutNav
+    list-style none
+    display flex
+    justify-content space-between
+    padding 0
+    // box-shadow 0 1px 6px 0 rgba(0,0,0,0.2)
+    .aboutNavItem
+      width 12.5%
+      background #F0F2F4
+      color #000000
+      padding 5px 10px
+      text-align center
+      cursor pointer
+      &:hover
+        background #FF66CC
+        color #ffffff
+  .aboutContent
+    width 100%;
+    box-shadow 0 1px 6px 0 rgba(0,0,0,0.2)
+    border-radius 0.25rem
+    padding 10px
+    box-sizing border-box
+    .colors
+      .midnightblue
+        color midnightblue
+        background-color midnightblue
+      .blue
+        color blue
+        background-color blue
+      .deepskyblue
+        color deepskyblue
+        background-color deepskyblue
+      .cornflowerblues
+        color cornflowerblue
+        background-color cornflowerblue
+      .lightskyblue
+        color lightskyblue
+        background-color lightskyblue
+        height 21px
+      li
+        height 21px
+        &:hover
+          color #ffffff
+    ul
+      padding 0
+      margin 0
+      list-style none
+      line-height 21px
+      img
+        width 16px
+        height 16px
+        margin 0 5px
+      li
+        // background #F0F2F4
+        padding 0 5px
+        margin-bottom 5px
+        display: flex;
+        align-items: center;
+        &:last-child
+          margin 0
