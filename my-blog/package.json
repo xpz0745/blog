@@ -7,14 +7,17 @@
         "build": "vuepress build ."
     },
     "devDependencies": {
+        "@vuepress-reco/vuepress-plugin-bgm-player": "^1.1.3",
         "@vuepress-reco/vuepress-plugin-pagation": "^1.6.0",
         "vuepress": "1.8.2",
         "vuepress-plugin-meting": "^0.2.3",
+        "vuepress-plugin-ribbon-animation": "^1.1.3",
         "vuepress-theme-reco": "1.6.6"
     },
     "dependencies": {
         "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
         "@vuepress-reco/vuepress-plugin-loading-page": "^1.6.0",
+        "@vuepress-reco/vuepress-plugin-bgm-player": "^1.1.3",
         "@vuepress-yard/vuepress-plugin-window": "^1.0.10",
         "vue-class-component": "^7.2.3",
         "vuepress-plugin-cursor-effects": "^1.0.0",

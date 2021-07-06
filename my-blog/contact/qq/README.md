@@ -1,6 +1,7 @@
 ---
-title: 'About'
+title: 'QQ'
 sidebar: false
 publish: false
 ---
-Test...
+<QQ />
+

@@ -1,6 +1,7 @@
 ---
-title: 'About'
+title: 'Wechat'
 sidebar: false
 publish: false
 ---
-Test...
+<WeChat />
+

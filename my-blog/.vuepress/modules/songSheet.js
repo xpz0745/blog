@@ -1,9 +1,9 @@
 module.exports = [
     {
-        name: 'PDD洪荒之力（唯美8D环绕）',
-        artist: '青稚m',
-        url: '/music/PDD洪荒之力（唯美8D环绕）- 青稚m.mp3',
-        cover: 'http://p1.music.126.net/R7SKKpusKiC7i8c3hTwmQQ==/109951163684089221.jpg?param=300x300'
+        name: '野孩子',
+        artist: '杨千嬅',
+        url: '/music/野孩子 - 杨千嬅.mp3',
+        cover: 'http://p1.music.126.net/cANzxO2ixBKq_DJhSPOQ9Q==/109951163447787666.jpg?param=300x300'
     },
     {
         name: '春娇与志明(抖音完整版)',

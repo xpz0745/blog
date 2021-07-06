@@ -8,3 +8,4 @@ bgImageStyle: {
   height: '100vh'
 }
 isShowTitleInHome: true
+---
