@@ -11,15 +11,15 @@ module.exports = {
 			{
 				audios: songSheetconf,
 				autoplay: true,
-				autoShrink: true
+				autoShrink: true,
+				
             }
         ],
     ],
     head: [
         ["link", {rel:"icon", href:"/img/favicon.ico"}],
         ["meta", {name:"viewport", content:"width=device-width,initial-scale=1,user-scalable=no"}],
-        ["script", {language:"javascript", type:"text/javascript", src:"https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"}],
-        ["script", {language:"javascript", type:"text/javascript", src:"/js/bgRandom.js"}],
+        // ["script", {language:"javascript", type:"text/javascript", src:"https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"}],
 		// ["script", {language:"javascript", type:"text/javascript", src:"/js/MouseClickEffect.js"}],
 	],
     theme: "reco",

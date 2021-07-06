@@ -12,20 +12,7 @@ module.exports = [
     {
         text: "文章",
         icon: "reco-blog",
-        items: [
-            {
-                text: "精选文章",
-                link: "/docs/article/"
-            },
-            {
-                text: "日常",
-                link: "/docs/life/daily/"
-            },
-            {
-                text: "旅游",
-                link: "/docs/life/travel/"
-            }
-        ]
+		link: "/docs/article/"
     },
     {
         text: "工具箱",
