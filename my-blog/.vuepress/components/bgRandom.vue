@@ -9,12 +9,12 @@
 		data() {
 			return {
 				imgArr: [
-				    "/img/randomBg-1.jpg",
-				    "/img/randomBg-2.jpg",
-				    "/img/randomBg-3.jpg",
-				    "/img/randomBg-4.jpg",
-				    "/img/randomBg-5.jpg",
-					"/img/randomBg-6.jpg"
+				    "/img/randomBg-1.png",
+				    "/img/randomBg-2.png",
+				    "/img/randomBg-3.png",
+				    "/img/randomBg-4.png",
+				    "/img/randomBg-5.png",
+					"/img/randomBg-6.png"
 				]
 			}
 		},
