@@ -12,8 +12,6 @@ sticky: 1
 
 心有多大，舞台就有多大:tipping_hand_woman:
 
-一名从零到
-
 :::
 
 <!-- more -->

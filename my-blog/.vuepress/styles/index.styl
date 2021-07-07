@@ -20,6 +20,37 @@
     background-color: transparent !important;
 }
 
+.home-blog .hero {
+	background-size cover !important;
+	background-position: center 0 !important;
+}
+
+.home-blog .hero #homeBlog {
+	left: 0;
+	bottom: 3.6rem;
+	width: 100%;
+	position: absolute;
+}
+
+.home-blog .hero a::after {
+	content: "";
+	position: absolute;
+	display: block;
+	bottom: 20rem;
+	left: calc(50% - 1.5rem);
+	width: 1.5rem;
+	height: 1.5rem;
+	border: 0.25rem solid #fff;
+	border-bottom-right-radius: 0.15rem;
+	border-top: none;
+	border-left: none;
+	transform-origin: 50% 50%;
+	transform: rotate(45deg);
+	cursor pointer;
+	-webkit-animation: arrowMove-data 2.5s infinite;
+	animation: arrowMove-data 2.5s infinite;
+}
+
 .hero::before {
   content: "";
   width: 100%;
@@ -29,30 +60,13 @@
   top: 0;
   background-color: rgba(0, 0, 0, 0.5);
 }
-.hero::after {
-  content: "";
-  position: absolute;
-  display: block;
-  bottom: 10 rem;
-  left: calc(50% - 1.5rem);
-  width: 1.5rem;
-  height: 1.5rem;
-  border: 0.25rem solid #fff;
-  border-bottom-right-radius: 0.15rem;
-  border-top: none;
-  border-left: none;
-  transform-origin: 50% 50%;
-  transform: rotate(45deg);
-  -webkit-animation: arrowMove-data 1.2s infinite;
-  animation: arrowMove-data 1.2s infinite;
-}
 
 @keyframes arrowMove-data {
   0% {
     transform: translateY(0px) rotate(45deg);
   }
   100% {
-    transform: translateY(80px) rotate(45deg);
+    transform: translateY(60px) rotate(45deg);
     border: 0.25rem solid rgba(255, 255, 255, 0.5);
     border-bottom-right-radius: 0.15rem;
     border-top: none;

@@ -12,7 +12,6 @@ module.exports = {
 				audios: songSheetconf,
 				autoplay: true,
 				autoShrink: true,
-				
             }
         ],
     ],
