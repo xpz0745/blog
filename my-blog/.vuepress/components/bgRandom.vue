@@ -33,6 +33,7 @@
 			setElement() {
 				let paramA = document.createElement("a");
 				paramA.href = "#homeBlog";
+				paramA.className = "home-more";
 				let paramDiv = document.createElement("div");
 				paramDiv.id = "homeBlog";
 				document.getElementsByClassName("hero")[0].appendChild(paramDiv);
