@@ -31,7 +31,7 @@ module.exports = [
                     },
                     {
                         text: "在线图片编辑",
-                        link: "https://www.gaoding.com/"
+                        link: "https://www.gaoding.com/image"
                     },
                     {
                         text: "在线获取音乐外链",
