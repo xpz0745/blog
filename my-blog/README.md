@@ -1,12 +1,13 @@
 ---
 # heroImage: /img/hero.png
 home: true
-heroText: 今天还好吗？
+heroText: 三味书屋
 tagline: A simple and beautiful blog.
 bgImage: '/img/home-bg.jpg'
 bgImageStyle: {
-	text-align: 'center',
-	overflow: 'hidden'
+	height: calc(100vh - 3.5rem),
+	text-align: center,
+	overflow: hidden,
 }
 isShowTitleInHome: true
 ---

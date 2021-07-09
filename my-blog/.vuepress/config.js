@@ -1,24 +1,43 @@
 const navconf = require('./modules/nav.js');
-const songSheetconf = require('./modules/songSheet.js');
 const sidebarconf = require('./modules/sidebar.js');
 
 module.exports = {
-    title: "9527",
+    title: "xpz0745",
     description: "后天的成功一定会感谢先天的努力",
-    dest: "/dist",
     plugins: [
-        [require('./plugins/BgMusic'), 
+		['meting', 
 			{
-				audios: songSheetconf,
-				autoplay: true,
-				autoShrink: true,
-            }
-        ],
+		        meting: {
+					auto: "http://music.163.com/#/song?id=509720124"
+		        },          
+		        // 不配置该项的话不会出现全局播放器
+		        aplayer: {
+		          // 吸底模式
+		          mini: true,
+		          // 自动播放
+		          autoplay: true,
+		          // 歌曲栏折叠
+		          listFolded:true,
+		          // 颜色
+		          theme: '#f9bcdd',
+		          // 播放顺序为随机
+		          order: 'random',
+		          // 初始音量
+		          volume: 0.5,
+		          // 关闭歌词显示
+		          lrcType: 0,
+		        },
+		        mobile :{
+		          // 手机端去掉cover图
+		          cover: false,
+		        }
+		    },
+		]
     ],
     head: [
         ["link", {rel:"icon", href:"/img/favicon.ico"}],
         ["meta", {name:"viewport", content:"width=device-width,initial-scale=1,user-scalable=no"}],
-        // ["script", {language:"javascript", type:"text/javascript", src:"https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"}],
+		// ["script", {language:"javascript", type:"text/javascript", src:"https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"}],
 		// ["script", {language:"javascript", type:"text/javascript", src:"/js/MouseClickEffect.js"}],
 	],
     theme: "reco",
