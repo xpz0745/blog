@@ -13,7 +13,8 @@
 				    "/img/randomBg-2.jpg",
 				    "/img/randomBg-3.jpg",
 				    "/img/randomBg-4.jpg",
-				    "/img/randomBg-5.jpg"
+				    "/img/randomBg-5.jpg",
+					"/img/randomBg-6.jpg"
 				]
 			}
 		},
