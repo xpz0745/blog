@@ -1,6 +1,6 @@
 module.exports = [
     {
-        title: '刘昊rz',
+        title: '生活记录',
         collapsable: true,
         children: [
             '/docs/article/notes/test1',

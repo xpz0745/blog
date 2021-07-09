@@ -1,7 +1,7 @@
 ---
 # heroImage: /img/hero.png
 home: true
-heroText: 三味书屋
+heroText: 准确的说，  我是一名演员
 tagline: A simple and beautiful blog.
 bgImage: '/img/home-bg.jpg'
 bgImageStyle: {
@@ -12,3 +12,4 @@ bgImageStyle: {
 isShowTitleInHome: true
 ---
 <BgRandom />
+
