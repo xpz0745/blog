@@ -1,9 +1,9 @@
 ---
-title: 《狂人日记》 ---摘记
+title: 《狂人日记》 ---原文
 date: 2021-7-8
 subSidebar: false
 tags:
- - 
+ - 随记
 sticky: 1
 ---
 :::tip 书名： 《狂人日记》
