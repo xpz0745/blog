@@ -11,3 +11,5 @@ bgImageStyle: {
 }
 isShowTitleInHome: true
 ---
+<bgRandom />
+
