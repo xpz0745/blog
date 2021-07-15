@@ -12,7 +12,7 @@ module.exports = [
     {
         text: "文章",
         icon: "reco-blog",
-		link: "/docs/article/"
+		link: "/docs/"
     },
     {
         text: "工具箱",
@@ -54,11 +54,6 @@ module.exports = [
             }
         ]
     },
-    {
-        text: "关于",
-        icon: "reco-account",
-        link: "/about/"
-    },
 	{
 	    text: "联系",
 	    icon: "reco-message",
@@ -72,6 +67,11 @@ module.exports = [
 				text: "qq",
 				icon: "reco-qq",
 				link: "/contact/qq/"
+			},
+			{
+			    text: "关于",
+			    icon: "reco-account",
+			    link: "/contact/about/"
 			}
 		]
 	}

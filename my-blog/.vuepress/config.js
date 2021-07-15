@@ -1,5 +1,5 @@
-const navconf = require('./modules/nav.js');
-const sidebarconf = require('./modules/sidebar.js');
+const navConf = require('./modules/nav.js');
+const sidebarConf = require('./modules/sidebar.js');
 
 module.exports = {
     title: "xpz0745",
@@ -8,7 +8,7 @@ module.exports = {
 		['meting', 
 			{
 		        meting: {
-					auto: "http://music.163.com/#/song?id=509720124"
+					auto: "http://music.163.com/#/song?id=1408941888"
 		        },          
 		        // 不配置该项的话不会出现全局播放器
 		        aplayer: {
@@ -42,8 +42,8 @@ module.exports = {
 	],
     theme: "reco",
     themeConfig: {
-        nav: navconf,
-        sidebar: sidebarconf,
+        nav: navConf,
+        sidebar: sidebarConf,
         type: "blog",
         blogConfig: {
             category: {

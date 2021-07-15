@@ -1,7 +1,7 @@
 ---
-# heroImage: /img/hero.png
+heroImage: /img/hero.png
 home: true
-heroText: 准确的说，  我是一名演员
+heroText: 演员的自我修养
 tagline: A simple and beautiful blog.
 # bgImage: '/img/home-bg.jpg'
 bgImageStyle: {
