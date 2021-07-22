@@ -60,6 +60,156 @@
 	animation: arrowMove-data 3s infinite;
 }
 
+#about {
+	display flex;
+	flex 1;
+	position relative;
+	padding 50px 40px;
+	box-shadow 3px 3px 5px #BFBFBF;
+	animation aboutAnimation 1.5s 1s forwards;
+	-webkit-animation aboutAnimation 1.5s 1s forwards;
+	opacity 0;
+	.about-side {
+		flex 50%;
+		.about-author {
+			float left;
+			img {
+				margin-right 20px;
+			}
+		}
+		.about-authorInfo {
+			li {
+				list-style-type none;
+			}
+		}
+		
+		.about-skill-Info {
+			clear both;
+			content "";
+			p {
+				margin-top 25px;
+				font-weight bold;
+			}
+			.container {
+			    background-color #F0F0F0;
+				border-radius 5px;
+				.skills {
+					height 15px;
+					border-radius 5px;
+				}
+				.html {
+					animation htmlAnimation 2.5s 1s forwards; 
+					-webkit-animation htmlAnimation 2.5s 1s forwards;
+				}
+				.css {
+					animation cssAnimation 2.5s 1s forwards;
+					-webkit-animation cssAnimation 2.5s 1s forwards;
+				}
+				.js {
+					animation jsAnimation 2.5s 1s forwards; 
+					-webkit-animation jsAnimation 2.5s 1s forwards;
+				}
+				.python {
+					animation pythonAnimation 2.5s 1s forwards; 
+					-webkit-animation pythonAnimation 2.5s 1s forwards;
+				}
+			}
+		}
+	}
+	.about-main {
+		flex 50%;
+		margin-left 30px;
+		.about-content {
+			.about-time {
+				position absolute;
+				right 0px;
+				bottom 0px;
+				width 180px;
+				margin 10px 20px;
+			}
+		}
+	}
+	.about-nail {
+		top 10px;
+		right 10px;
+		position absolute;
+		pointer-events: none;
+		img {
+			animation nailAnimation 0.8s 2s ease-in forwards;
+			opacity 0;
+		}
+	}
+}
+
+@keyframes htmlAnimation {
+	0% {
+		width: 0%;
+		background-color: #4CAF50;
+	}
+	100% {
+		width: 60%;
+		background-color: #4CAF50;
+	}
+}
+
+@keyframes cssAnimation {
+	0% {
+		width: 0%;
+		background-color: #2196F3;
+	}
+	100% {
+		width: 75%;
+		background-color: #2196F3;
+	}
+}
+
+@keyframes jsAnimation {
+	0% {
+		width: 0%;
+		background-color: #CD3700;
+	}
+	100% {
+		width: 50%;
+		background-color: #CD3700;
+	}
+}
+
+@keyframes pythonAnimation {
+	0% {
+		width: 0%;
+		background-color: #808080;
+	}
+	100% {
+		width: 60%;
+		background-color: #808080;
+	}
+}
+
+@keyframes aboutAnimation {
+	0% {
+		transform translateZ(0) rotate(75deg);
+	}
+	50% {
+		transform translateZ(0) rotate(-7deg);
+	}
+	100% {
+		transform rotate(0deg);
+		opacity 1;
+	}
+}
+
+@keyframes nailAnimation {
+	0% {
+		width 352px;
+		height 276px;
+	}
+	100% {
+		width 88px;
+		height 69px;
+		opacity 1;
+	}
+}
+
 @keyframes arrowMove-data {
 	0% {
 		transform: translateY(0px) rotate(45deg);
@@ -73,5 +223,39 @@
 	}
 	100% {
 		transform: translateY(0px) rotate(45deg);
+	}
+}
+
+@media (max-width: 768px){
+	#about {
+		display block;
+		padding 50px 25px;
+		.about-author {
+			img {
+				width 120px;
+				height 120px;
+			}
+		}
+		.about-authorInfo {
+			margin-left 45%;
+			word-wrap break-word;
+			li {
+				list-style-type none;
+				font-size 13px;
+			}
+		}
+		.about-main {
+			margin 25px 0;
+		}
+	}
+}
+
+@media (max-width: 320px) {
+	#about{
+		.about-authorInfo {
+			clear both;
+			content "";
+			margin 0;
+		}
 	}
 }

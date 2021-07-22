@@ -27,5 +27,12 @@ module.exports = [
         children: [
             'vue/VueRouterScroll'
         ]
-    }
+    },
+	{
+	    title: 'LeanCloud',
+	    collapsable: true,
+	    children: [
+	        'leanCloud/Comment'
+	    ]
+	}
 ]

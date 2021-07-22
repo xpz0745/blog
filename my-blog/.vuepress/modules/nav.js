@@ -36,6 +36,11 @@ module.exports = [
                     {
                         text: "在线获取音乐外链",
                         link: "https://music.xf1433.com/"
+                    },
+
+                    {
+                        text: "在线压缩图片",
+                        link: "https://tinypng.com/"
                     }
                 ]
             },

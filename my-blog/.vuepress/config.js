@@ -9,8 +9,7 @@ module.exports = {
 			{
 		        meting: {
 					auto: "http://music.163.com/#/song?id=1408941888"
-		        },          
-		        // 不配置该项的话不会出现全局播放器
+		        },
 		        aplayer: {
 		          // 吸底模式
 		          mini: true,
@@ -19,7 +18,7 @@ module.exports = {
 		          // 歌曲栏折叠
 		          listFolded:true,
 		          // 颜色
-		          theme: '#f9bcdd',
+		          theme: '#FF34B3',
 		          // 播放顺序为随机
 		          order: 'random',
 		          // 初始音量
@@ -38,7 +37,6 @@ module.exports = {
         ["link", {rel:"icon", href:"/img/favicon.ico"}],
         ["meta", {name:"viewport", content:"width=device-width,initial-scale=1,user-scalable=no"}],
 		// ["script", {language:"javascript", type:"text/javascript", src:"https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"}],
-		// ["script", {language:"javascript", type:"text/javascript", src:"/js/MouseClickEffect.js"}],
 	],
     theme: "reco",
     themeConfig: {
@@ -73,19 +71,26 @@ module.exports = {
                 link: "https://vuepress-theme-reco.recoluan.com"
             }
         ],
-        logo: "/img/WechatIMG21.jpg", //导航栏logo
+        logo: "/img/authorAvatar.jpg", //导航栏logo
         search: true, //搜索
         searchMaxSuggestions: 10, //最大搜索建议
         lastUpdated: "Last Updated", //最后更新
         author: "xpz0745", //作者
-        authorAvatar: "/img/WechatIMG21.jpg",  //作者头像
-        record: "99999999999999", //备案号
+        authorAvatar: "/img/authorAvatar.jpg",  //作者头像
+        record: "99999999999999", //ICP备案号
+		recordLink: "https://beian.miit.gov.cn",  //ICP备案链接地址
+		cyberSecurityRecord: "121212121212",  //公网安备号
+		cyberSecurityLink: "",  ////公网安备链接地址
         startYear: "2021", //开始年份
-        sidebarDepth: 2,
-        subSidebar: 'auto',
-        // valineConfig: {
-
-        // }
+        sidebarDepth: 3,
+		subSidebar: 'auto',
+        valineConfig: {
+			appId: 'e7hysMjxiOkYqe2rr2RNv36Q-gzGzoHsz',// your appId
+			appKey: 'hWh5TfCyzyyAly9t1L4K5pt9', // your appKey
+			placeholder: '来吧，展示！', //默认显示信息
+			avatar: 'wavatar', //评论头像
+			visitor: false //显示页面访问数
+        }
     },
     markdown: {
         lineNumbers: true

@@ -2,7 +2,7 @@
   <div class="wechat">
 		<div class="wechatContent">
 			<p class="wechatDesc">扫描下面二维码添加微信👇</p>
-			<img src="../public/img/generate_Wechat.png" width="300px" height="300px" />
+			<img src="http://121.40.49.66/img/generate_Wechat.png" width="300px" height="300px" />
 		</div>
   </div>
 </template>
