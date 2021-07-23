@@ -60,7 +60,7 @@
 	animation: arrowMove-data 3s infinite;
 }
 
-#about {
+.about {
 	display flex;
 	flex 1;
 	position relative;
@@ -73,9 +73,7 @@
 		flex 50%;
 		.about-author {
 			float left;
-			img {
-				margin-right 20px;
-			}
+			margin-right 20px;
 		}
 		.about-authorInfo {
 			li {
@@ -124,7 +122,7 @@
 				position absolute;
 				right 0px;
 				bottom 0px;
-				width 180px;
+				width 100px;
 				margin 10px 20px;
 			}
 		}
@@ -227,7 +225,7 @@
 }
 
 @media (max-width: 768px){
-	#about {
+	.about {
 		display block;
 		padding 50px 25px;
 		.about-author {
@@ -251,7 +249,7 @@
 }
 
 @media (max-width: 320px) {
-	#about{
+	.about{
 		.about-authorInfo {
 			clear both;
 			content "";
