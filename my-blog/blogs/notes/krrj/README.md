@@ -7,6 +7,7 @@ categories:
 tags:
  - 随记
 sticky: 1
+author: "鲁迅"
 ---
 :::tip 书名： 《狂人日记》
 

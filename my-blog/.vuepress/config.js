@@ -8,7 +8,7 @@ module.exports = {
 		['meting', 
 			{
 		        meting: {
-					auto: "http://music.163.com/#/song?id=1408941888"
+					auto: "http://music.163.com/#/song?id=1387581250"
 		        },
 		        aplayer: {
 		          // 吸底模式
@@ -36,7 +36,15 @@ module.exports = {
     head: [
         ["link", {rel:"icon", href:"/img/favicon.ico"}],
         ["meta", {name:"viewport", content:"width=device-width,initial-scale=1,user-scalable=no"}],
-		// ["script", {language:"javascript", type:"text/javascript", src:"https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"}],
+		["script", {}, `
+            var _hmt = _hmt || [];
+            (function() {
+                var hm = document.createElement("script");
+                hm.src = "https://hm.baidu.com/hm.js?087064a1dfed0b8c21234e64f4521980";
+                var s = document.getElementsByTagName("script")[0]; 
+                s.parentNode.insertBefore(hm, s);
+			})();
+		`],
 	],
     theme: "reco",
     themeConfig: {
@@ -53,7 +61,7 @@ module.exports = {
                 text: "标签"
             },
             socialLinks: [     // 信息栏展示社交信息
-                { icon:'reco-github', link:'https://github.com/xpz0745'}
+                {icon:'reco-github', link:'https://github.com/xpz0745'}
             ]
         },
         //友链
@@ -77,19 +85,20 @@ module.exports = {
         lastUpdated: "Last Updated", //最后更新
         author: "xpz0745", //作者
         authorAvatar: "/img/authorAvatar.jpg",  //作者头像
-        record: "99999999999999", //ICP备案号
-		recordLink: "https://beian.miit.gov.cn",  //ICP备案链接地址
-		cyberSecurityRecord: "121212121212",  //公网安备号
+        record: "皖ICP备2021010605号", //ICP备案号
+		recordLink: "http://beian.miit.gov.cn/",  //ICP备案链接地址
+		cyberSecurityRecord: "99999999",  //公网安备号
 		cyberSecurityLink: "",  ////公网安备链接地址
         startYear: "2021", //开始年份
         sidebarDepth: 3,
 		subSidebar: 'auto',
+		noFoundPageByTencent: false,
         valineConfig: {
-			appId: 'e7hysMjxiOkYqe2rr2RNv36Q-gzGzoHsz',// your appId
-			appKey: 'hWh5TfCyzyyAly9t1L4K5pt9', // your appKey
+			appId: 'vUvdx4fbChOnKyWgjEBNw5xy-gzGzoHsz',// your appId
+			appKey: 'vakfJu8wSPmA3uIkChrxrlnw', // your appKey
 			placeholder: '来吧，展示！', //默认显示信息
 			avatar: 'wavatar', //评论头像
-			visitor: false //显示页面访问数
+			visitor: false,  //浏览量开关
         }
     },
     markdown: {

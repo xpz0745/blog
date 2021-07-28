@@ -59,6 +59,11 @@ module.exports = [
             }
         ]
     },
+	{ 
+		text: 'About',
+		link: '/contact/about/',
+		icon: 'reco-account'
+	},
 	{
 	    text: "联系",
 	    icon: "reco-message",
@@ -72,11 +77,6 @@ module.exports = [
 				text: "qq",
 				icon: "reco-qq",
 				link: "/contact/qq/"
-			},
-			{
-			    text: "关于",
-			    icon: "reco-account",
-			    link: "/contact/about/"
 			}
 		]
 	}

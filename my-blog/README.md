@@ -1,8 +1,8 @@
 ---
-heroImage: /img/hero.png
+# heroImage: /img/hero.png
 home: true
-heroText: 演员的自我修养
-tagline: A simple and beautiful blog.
+heroText: Xiaobai's growth record
+# tagline: A simple and beautiful blog.
 # bgImage: '/img/home-bg.jpg'
 bgImageStyle: {
 	height: calc(100vh - 3.5rem),

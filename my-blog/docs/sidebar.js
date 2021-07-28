@@ -29,10 +29,10 @@ module.exports = [
         ]
     },
 	{
-	    title: 'LeanCloud',
+	    title: 'Valine',
 	    collapsable: true,
 	    children: [
-	        'leanCloud/Comment'
+	        'valine/Comment'
 	    ]
 	}
 ]

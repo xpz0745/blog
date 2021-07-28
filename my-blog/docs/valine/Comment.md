@@ -1,13 +1,13 @@
 ---
-title: LeanCloud评论系统
+title: Valine评论系统
 date: 2021-7-19
 tags:
  - comment
 ---
 
-## LeanCloud使用方法
+## Valine使用方法
 
-关于LeanCloud的评论系统，其实vuepress-theme-reco主题已经给出了解释[点击此处](https://vuepress-theme-reco.recoluan.com/views/1.x/valine.html)，可以选择Valine和Vssue两种评论系统，我这边选择了Valine，下面说一说Valine的基本使用吧。
+关于Valine的评论系统，其实vuepress-theme-reco主题已经给出了解释[点击此处](https://vuepress-theme-reco.recoluan.com/views/1.x/valine.html)，可以选择Valine和Vssue两种评论系统，我这边选择了Valine，下面说一说Valine的基本使用吧。
 
 首先按照官网的说法在config里配置如下：
 
