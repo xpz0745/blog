@@ -34,5 +34,12 @@ module.exports = [
 	    children: [
 	        'valine/Comment'
 	    ]
-	}
+	},
+    {
+        title: 'Git',
+        collapsable: true,
+        children: [
+            'git/git-dev'
+        ]
+    }
 ]
