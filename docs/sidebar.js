@@ -18,7 +18,8 @@ module.exports = [
         title: 'Css',
         collapsable: true,
         children: [
-            'css/Css3NewCharacteristic'
+            'css/Css3NewCharacteristic',
+			'css/css-flex'
         ]
     },
     {
