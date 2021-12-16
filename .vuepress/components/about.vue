@@ -2,7 +2,7 @@
 	<div id="frame-about">
 		<div class="about">
 			<div class="about-nail">
-				<img src="http://121.40.49.66/img/nail.png" alt="图钉" />
+				<el-image fit="cover" src="http://121.40.49.66/img/nail.png" alt="图钉"></el-image>
 			</div>
 			<div class="about-side">
 				<div class="about-author">
