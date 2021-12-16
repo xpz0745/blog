@@ -37,10 +37,11 @@ module.exports = [
 	    ]
 	},
     {
-        title: 'Git',
+        title: 'Other',
         collapsable: true,
         children: [
-            'git/git-dev'
+            'other/git-dev',
+			'other/apktool'
         ]
     }
 ]

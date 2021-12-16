@@ -2,7 +2,7 @@
 title: git-dev
 date: 2021-09-17
 tags:
- - notes
+ - git
 ---
 
 # git如何关联？
