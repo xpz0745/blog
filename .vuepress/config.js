@@ -77,7 +77,13 @@ module.exports = {
                 desc: "A simple and beautiful vuepress Blog & Doc theme.",
                 avatar: "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
                 link: "https://vuepress-theme-reco.recoluan.com"
-            }
+            },
+			{
+			    title: "Top Top Top",
+			    desc: "This is a Topwo website.",
+			    avatar: "http://space.topwo.com/topwoassets/image/logo@100x100.png",
+			    link: "http://blog.topwo.com/"
+			}
         ],
         logo: "/img/authorAvatar.jpg", //导航栏logo
         search: true, //搜索
